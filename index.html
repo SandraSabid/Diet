@@ -1,0 +1,398 @@
+<!DOCTYPE html> 
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Titulo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<link rel="stylesheet" href="css/themes/diet.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+</head>		
+			
+
+<body>
+
+
+
+
+<div data-role="page" id="logo"><!-- Inicio página -->
+  <div data-role="header">
+  
+ <center>
+      <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+	<img src=""><img src="icono final.png" width="256" height="256" alt="logo">
+    </center>
+
+
+		<center>
+      <a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Ingresar</a>
+      </center>
+      
+    </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="inicio"><!-- Inicio página -->
+	<div data-role="header">
+    	<h1>Diet</h1>
+        <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+</div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+        <div class="ui-field-contain">
+            <label for="textinput-1">E-mail:</label>
+            <input type="text" name="textinput-1" id="textinput-1" placeholder="Introduzca su email" value="">
+</div>
+        <div class="ui-field-contain">
+            <label for="textinput-2">Usuario:</label>
+            <input type="text" name="textinput-2" id="textinput-2" placeholder="Introduzca su Usuario" value="">
+</div>
+        <div class="ui-field-contain">
+            <label for="textinput-3">Contraseña:</label>
+            <input type="password" name="textinput-3" id="textinput-3" value="">
+</div>
+        <a href="#datos" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Aceptar</a>
+    </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+<div data-role="page" id="datos"><!-- Inicio página -->
+<div data-role="header">
+    	<h1>Diet</h1>
+        <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+  </div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+        <label for="slider-1">Edad:</label>
+    	<input type="range" name="slider-1" id="slider-1" min="18" max="100" value="25">
+
+        <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+<legend>Genero:</legend>
+            <input type="radio" name="radio-choice-b" id="radio-choice-c" value="list" checked="checked">
+            <label for="radio-choice-c">Femenino</label>
+            <input type="radio" name="radio-choice-b" id="radio-choice-d" value="grid">
+            <label for="radio-choice-d">Masculino</label>
+            </fieldset>
+        <a href="#Peso" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Aceptar</a>
+  </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+
+<div data-role="page" id="Peso"><!-- Inicio página -->
+	<div data-role="header">
+    	<h1>Diet</h1>
+       <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+    </div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+     	<center><h4>Calcula su IMC</h4>
+        <h5>(Indice de masa corporal)</h5>
+        
+      <label for="slider-1">Peso:</label>
+    	<input type="range" name="slider-1" id="slider-1" min="40" max="120" value="60">
+    
+        <label for="slider-1">Talla (cms):</label>
+    	<input type="range" name="slider-1" id="slider-1" min="130" max="220" value="150">
+            
+  </div>
+             <a href="#Valores" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Calcular</a>
+</div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+
+<div data-role="page" id="Valores"><!-- Inicio página -->
+	<div data-role="header">
+    	<h1>Diet</h1>
+       <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+    </div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+     	<center><h4>Valores de su IMC</h4>
+        <h2>26/30 - Sobrepeso</h2>
+        
+        <h4>Por su talla y peso le recomendamos bajar 15 Kilos</h4>
+        
+                  
+  </div>
+             <a href="#Meses" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Continuar</a>
+</div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+
+<div data-role="page" id="Meses"><!-- Inicio página -->
+	<div data-role="header">
+    	<h1>Diet</h1>
+       <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+    </div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+     <center><h4>Disminuir de peso en:</h4></center>
+      
+   <fieldset data-role="controlgroup" data-type="horizontal">
+    <legend>Meses:</legend>
+
+    <input type="radio" name="radio-choice-h-2" id="radio-choice-h-3a" value="on" checked="checked">
+    <label for="radio-choice-h-3a">3</label>
+    <input type="radio" name="radio-choice-h-2" id="radio-choice-h-4b" value="off">
+    <label for="radio-choice-h-4b">6</label>
+    <input type="radio" name="radio-choice-h-2" id="radio-choice-h-5c" value="other">
+    <label for="radio-choice-h-5c">9</label>
+ 	<input type="radio" name="radio-choice-h-2" id="radio-choice-h-6c" value="other">
+    <label for="radio-choice-h-6c">12</label>
+	  </fieldset>
+                      
+
+  <center><h4>Le recomendamos una dieta diaria baja en calorías de (1300 Calorías Aprox.) </h4> 
+                            
+             <a href="#Menu" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Elegir mi dieta Saludable</a>
+  </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+<div data-role="page" id="indicador">
+  <div data-role="header">
+  		<h1>Diet</h1>
+       <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+    	</div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+     	<h4>Seleccion de Alimentos </h4>
+        <h5>(1300 Calorías Aprox.)</h5>
+        
+      <label for="slider-1">Tolal de Calorías</label>
+    	<input type="range" name="slider-1" id="slider-1" min="10" max="1300" value="200">
+        
+        <center>
+      <a href="#estadisticas" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Ingresar</a>
+      </center>
+      
+    </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+<div data-role="page" id="Menu"><!-- Inicio página -->
+<div data-role="header">
+    	<h1>Diet</h1>
+        <a href="#" class="ui-btn-right ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a>
+</div><!-- Cierre header -->
+    <div role="main" class="ui-content">
+    <center><h4>Armar mi menú:</h4></center>
+      
+    <div data-role="collapsibleset" data-filter="true" data-inset="true" id="collapsiblesetForFilter" data-input="#searchForCollapsibleSet">
+        <div data-role="collapsible" data-filtertext="Animals">
+            <h3>Preparaciones especiales</h3>
+   <ul data-role="listview" data-inset="false">
+  <fieldset data-role="controlgroup" data-iconpos="right">
+        <input type="checkbox" name="checkbox-h-6a" id="checkbox-h-6a">
+        <label for="checkbox-h-6a">Arroz con Pollo <small>775 Calorias </small></label>
+		<input type="checkbox"name="checkbox-h-7a" id="checkbox-h-7a">
+        <label for="checkbox-h-7a">Lasaña <small>870 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-8a" id="checkbox-h-8a">
+        <label for="checkbox-h-8a">Mondongo <small>510 Calorias </small></label>
+        <input type="checkbox" name="checkbox-h-9a" id="checkbox-h-9a">
+        <label for="checkbox-h-9a">Sancocho de Pescado <small>640 Calorias </small></label>
+        <input type="checkbox"name="checkbox-h-10a" id="checkbox-h-10a">
+        <label for="checkbox-h-10a">Tamal Tolimense <small>1430 Calorias </small></label> 
+		<input type="checkbox"name="checkbox-h-11a" id="checkbox-h-11a">
+        <label for="checkbox-h-11a">Espaguetis a la Boloñesa <small>640 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-12a" id="checkbox-h-12a">
+      	<label for="checkbox-h-12a">Cazuela de Mariscos <small>670 Calorias </small></label> 
+		<input type="checkbox" name="checkbox-h-13a" id="checkbox-h-13a">
+		<label for="checkbox-h-13a">Bandeja Paisa <small>2200 Calorias </small></label>
+  </fieldset>
+</ul>
+        </div>
+        
+<div data-role="collapsible" data-filtertext="Cars">
+            <h3>Frutas</h3>
+            <ul data-role="listview" data-inset="false">
+
+   <fieldset data-role="controlgroup" data-iconpos="right">
+   <input type="checkbox" name="checkbox-h-14a" id="checkbox-h-14a">
+        <label for="checkbox-h-14a">Anon <small>8 Calorias </small></label>
+       <input type="checkbox"name="checkbox-h-15a" id="checkbox-h-15a">
+        <label for="checkbox-h-15a">Banano <small>89 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-16a" id="checkbox-h-16a">
+        <label for="checkbox-h-16a">Breva <small>65 Calorias </small></label>
+        <input type="checkbox" name="checkbox-h-17a" id="checkbox-h-17a">
+        <label for="checkbox-h-17a">Fresa <small>35 Calorias </small></label>
+        <input type="checkbox"name="checkbox-h-18a" id="checkbox-h-18a">
+        <label for="checkbox-h-18a">Durazno <small>49 Calorias </small></label>
+		<input type="checkbox"name="checkbox-h-19a" id="checkbox-h-19a">
+        <label for="checkbox-h-19a">Papaya <small>43 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-20a" id="checkbox-h-20a">
+      	<label for="checkbox-h-20a">Naranja <small>38 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-21a" id="checkbox-h-21a">
+		<label for="checkbox-h-21a">Mandarina <small>44 Calorias </small></label>
+        <input type="checkbox" name="checkbox-h-22a" id="checkbox-h-22a">
+      	<label for="checkbox-h-22a">Mango <small>56 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-23a" id="checkbox-h-23a">
+		<label for="checkbox-h-23a">Manzana <small>53 Calorias </small></label>          
+          </fieldset>
+        
+            </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Planets">
+            <h3>Carnes y Huevos</h3>
+            <ul data-role="listview" data-inset="false">
+ <fieldset data-role="controlgroup" data-iconpos="right">
+   <input type="checkbox" name="checkbox-h-24a" id="checkbox-h-24a">
+        <label for="checkbox-h-24a">Atún<small>127 Calorias</small></label>
+       <input type="checkbox"name="checkbox-h-25a" id="checkbox-h-25a">
+        <label for="checkbox-h-25a">Bagre<small>150 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-26a" id="checkbox-h-26a">
+        <label for="checkbox-h-26a">Carne de Cerdo<small>346 Calorias</small></label>
+        <input type="checkbox" name="checkbox-h-27a" id="checkbox-h-27a">
+        <label for="checkbox-h-27a">Chorizo<small>373 Calorias</small></label>
+        <input type="checkbox"name="checkbox-h-28a" id="checkbox-h-28a">
+        <label for="checkbox-h-28a">Carne de Res<small>219 Calorias</small></label>
+		<input type="checkbox"name="checkbox-h-29a" id="checkbox-h-29a">
+        <label for="checkbox-h-29a">Pollo<small>219 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-30a" id="checkbox-h-30a">
+      	<label for="checkbox-h-30a">Gallina<small> 232 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-31a" id="checkbox-h-31a">
+		<label for="checkbox-h-31a">Jamón<small>145 Calorias</small></label>
+        <input type="checkbox" name="checkbox-h-32a" id="checkbox-h-32a">
+      	<label for="checkbox-h-32a">Pescado<small>156 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-33a" id="checkbox-h-33a">
+		<label for="checkbox-h-33a">Morcilla<small>379 Calorias</small></label> 
+        <input type="checkbox" name="checkbox-h-34a" id="checkbox-h-34a">
+		<label for="checkbox-h-34a">Sardinas<small>238 Calorias</small></label>
+  </fieldset>
+                
+            </ul>
+        </div>
+ <div data-role="collapsible" data-filtertext="Planets">
+            <h3>Leguminosas</h3>
+            <ul data-role="listview" data-inset="false">
+<fieldset data-role="controlgroup" data-iconpos="right">
+   <input type="checkbox" name="checkbox-h-35a" id="checkbox-h-35a">
+        <label for="checkbox-h-35a">Frijol Rojo <small>292 Calorias</small></label>
+       <input type="checkbox"name="checkbox-h-36a" id="checkbox-h-36a">
+        <label for="checkbox-h-36a">Garbanzo<small>364 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-37a" id="checkbox-h-37a">
+        <label for="checkbox-h-37a">Lentejas<small>116 Calorias</small></label>
+      	</fieldset>                   	
+            </ul>
+        </div>
+
+ <div data-role="collapsible" data-filtertext="Planets">
+            <h3>Lácteos</h3>
+            <ul data-role="listview" data-inset="false">
+<fieldset data-role="controlgroup" data-iconpos="right">
+   <input type="checkbox" name="checkbox-h-38a" id="checkbox-h-38a">
+        <label for="checkbox-h-38a">Kumis <small>160 Calorias </small></label>
+       <input type="checkbox"name="checkbox-h-39a" id="checkbox-h-39a">
+        <label for="checkbox-h-39a">Leche <small>116 Calorias</small></label>
+		<input type="checkbox" name="checkbox-h-40a" id="checkbox-h-40a">
+        <label for="checkbox-h-40a">Leche en Polvo <small>496 Calorias</small></label>
+        <input type="checkbox" name="checkbox-h-41a" id="checkbox-h-41a">
+        <label for="checkbox-h-41a">Yogurt <small>140 Calorias</small></label>
+        <input type="checkbox"name="checkbox-h-42a" id="checkbox-h-42a">
+        <label for="checkbox-h-42a">Yogurt Dietético <small>70 Calorias</small></label>
+		<input type="checkbox"name="checkbox-h-43a" id="checkbox-h-43a">
+        <label for="checkbox-h-43a">Leche Descremada <small>66 Calorias</small></label>
+               </fieldset>
+         </ul>
+        </div>
+
+ <div data-role="collapsible" data-filtertext="Planets">
+            <h3>Verduras</h3>
+            <ul data-role="listview" data-inset="false">
+            <fieldset data-role="controlgroup" data-iconpos="right">
+        <input type="checkbox" name="checkbox-h-44a" id="checkbox-h-44a">
+        <label for="checkbox-h-44a">Pepino <small>10 Calorias </small></label>
+		<input type="checkbox"name="checkbox-h-45a" id="checkbox-h-45a">
+        <label for="checkbox-h-45a">Calabaza <small>22 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-46a" id="checkbox-h-46a">
+        <label for="checkbox-h-46a">Habichuela <small>35 Calorias </small></label>
+        <input type="checkbox" name="checkbox-h-47a" id="checkbox-h-47a">
+        <label for="checkbox-h-47a">Arveja Verde <small>81 Calorias </small></label>
+        <input type="checkbox"name="checkbox-h-48a" id="checkbox-h-48a">
+        <label for="checkbox-h-48a">Champiñones <small>22 Calorias </small></label>
+		<input type="checkbox"name="checkbox-h-49a" id="checkbox-h-49a">
+        <label for="checkbox-h-49a">Espinacas <small>23 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-50a" id="checkbox-h-50a">
+      	<label for="checkbox-h-50a">Lechuga <small>15 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-51a" id="checkbox-h-51a">
+		<label for="checkbox-h-51a">Tomate <small>18 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-52a" id="checkbox-h-52a">
+  	    <label for="checkbox-h-52a">Zanahoria <small>41 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-53a" id="checkbox-h-53a">
+   		<label for="checkbox-h-53a">Cebolla cabezona <small>40 Calorias </small></label>
+          </fieldset>
+          </ul>
+   		</div>
+
+<div data-role="collapsible" data-filtertext="Planets">
+<h3>Harinas</h3>
+            <ul data-role="listview" data-inset="false">
+            <fieldset data-role="controlgroup" data-iconpos="right">
+        <input type="checkbox" name="checkbox-h-54a" id="checkbox-h-54a">
+        <label for="checkbox-h-54a">Arroz <small>130 Calorias</small></label>
+		<input type="checkbox"name="checkbox-h-55a" id="checkbox-h-55a">
+        <label for="checkbox-h-55a">Buñuelo <small>462 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-56a" id="checkbox-h-56a">
+        <label for="checkbox-h-56a">Arepa de Maíz <small>219 Calorias </small></label>
+        <input type="checkbox" name="checkbox-h-57a" id="checkbox-h-57a">
+        <label for="checkbox-h-57a">Empanadas <small>335 Calorias </small></label>
+        <input type="checkbox"name="checkbox-h-58a" id="checkbox-h-58a">
+        <label for="checkbox-h-58a">Pan Blanco <small>361 Calorias </small></label>
+		<input type="checkbox"name="checkbox-h-59a" id="checkbox-h-59a">
+        <label for="checkbox-h-59a">Envuelto de Maíz <small>150 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-60a" id="checkbox-h-60a">
+      	<label for="checkbox-h-60a">Yuca <small>159 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-61a" id="checkbox-h-61a">
+		<label for="checkbox-h-61a">Galletas Integrales <small>353 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-62a" id="checkbox-h-62a">
+  	    <label for="checkbox-h-62a">Papa <small>77 Calorias </small></label>
+		<input type="checkbox" name="checkbox-h-63a" id="checkbox-h-63a">
+   		<label for="checkbox-h-63a">Pan Integral <small>293 Calorias </small></label>
+        </fieldset>
+			 </ul>
+    </div>
+    </div>
+        <a href="#indicador" class="ui-shadow ui-btn ui-corner-all ui-icon-check  ui-btn-icon-left">Aceptar</a>
+    </div><!-- Cierre content -->
+</div><!-- Final de la página -->
+
+
+
+
+
+
+
+
+<!-- Inicio página -->
+
+
+
+
+
+
+</body>
+</html>
